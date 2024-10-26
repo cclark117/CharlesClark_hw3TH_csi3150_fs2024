@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hero {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-evenly;
+  background-image: url(../assets/img/background1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ACB33B;
+}
+.logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+.hero h1{
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.hero h2{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+i{
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+.intro {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(../assets/img/Background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.intro .left{
+  padding: 50px;
+}
+.intro .left .section-heading{
+  color: #DFEA30;
+  font-weight: 600;
+}
+.intro .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200px;
+}
+.intro .right .intro-desc{
+  color: #DFEA30;
+  margin-bottom: 20px;
+}
+.cta-btn{
+  font-size: 25px;
+  background: #5BDA0E;
+  height: 30px;
+  width: auto;
+  border: none;
+  border-radius: 10px;
+}
+.activities {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../assets/img/Background3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.activities .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.activities .wrapper .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.activities .wrapper .container img {
+  height: 300px;
+  width: 400px;
+  position: relative;
+}
+.activities .wrapper .container h3{
+  color: #ACB33B;
+  position: absolute;
+}
+.activities .wrapper .container i{
+  color: #ACB33B;
+  position: absolute;
+}
+.recommendations {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../assets/img/Background4.jpg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.recommendations h2{
+  padding: 50px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #ACB33B;
+}
+.recommendations .content{
+  color: #ACB33B;
+  padding: 50px;
+}
+.stats {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url(../assets/img/background5.jpg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.stats .wrapper{
+  height: 100px;
+  width: 100px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ACB33B;
+}
+.author-info {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url(../assets/img/Background6.jpg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  padding: 30px;
+  color: #EDF935;
+}
+.author-info img {
+  margin-top: 50px;
+  height: 150px;
+  width: 150px;
+  padding: 20px;
+  border-radius: 50%;
+}
+.author-info p{
+  font-size: 18px;
+}
+.gallery {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: #000;
+}
+.gallery img {
+  width: 25%;
+  height: auto;
+}
+footer {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(../assets/img/Background7.jpg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+footer .left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+footer .left h2{
+  color: #fff;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+footer .left ul{
+  font-size: 25px;
+  color: #fff;
+  padding-left: 50px;
+  margin-bottom: 20px;
+}
+footer .left .icon-wrap i{
+  font-size: 40px;
+  color: #fff;
+}
+footer .right form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 50px;
+  padding: 30px;
+}
+footer .right form #text{
+  margin-bottom: 10px;
+  width: 500px;
+}
+footer .right form #email{
+  margin-bottom: 10px;
+  width: 500px;
+}
+footer .right form #textarea{
+  height: 50px;
+  width: 500px;
+  height: 400px;
+}
+footer .right form button{
+  width: 200px;
+  height: 50px;
+  background: #5BDA0E;
+  border: none;
+}
